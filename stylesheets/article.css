@@ -1,0 +1,35 @@
+#head-image{
+    height: 300px;
+    width: 100%;
+}
+
+#head-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#title{
+    margin:10px 0;
+    padding-bottom: 10px;
+    border-bottom: 3px solid;
+    border-color: black;
+}
+
+    #title-bottom{
+        display: flex;
+        justify-content: space-between;
+    }
+
+        #tags{
+            display: flex;
+            justify-content: right;
+        }
+
+        #tags li{
+            margin-left: 10px;
+        }
+
+#article-content{
+    margin:10px 0;
+}
